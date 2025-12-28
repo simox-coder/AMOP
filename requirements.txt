@@ -1,0 +1,22 @@
+# Core dependencies for AIMO3 competition
+pandas>=2.0.0
+polars>=0.19.0
+
+# For mathematical computations (recommended)
+numpy>=1.24.0
+sympy>=1.12
+
+# For LaTeX parsing (optional but helpful)
+# antlr4-python3-runtime>=4.11.0
+
+# For machine learning / AI models (optional - depending on your approach)
+# torch>=2.0.0
+# transformers>=4.30.0
+
+# For gRPC (already included in kaggle_evaluation)
+grpcio>=1.50.0
+protobuf>=4.21.0
+
+# Development dependencies
+# jupyter>=1.0.0
+# ipython>=8.0.0
